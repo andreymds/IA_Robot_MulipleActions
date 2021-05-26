@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotGuardBT", "Assembly-CSharp.csproj", "{B5B853EB-7106-7F7D-1DA6-582FCB89594D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotGuardBT", "Assembly-CSharp-Editor.csproj", "{BD16A289-7309-332A-4699-67AF4F4C9EFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5B853EB-7106-7F7D-1DA6-582FCB89594D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5B853EB-7106-7F7D-1DA6-582FCB89594D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5B853EB-7106-7F7D-1DA6-582FCB89594D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5B853EB-7106-7F7D-1DA6-582FCB89594D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD16A289-7309-332A-4699-67AF4F4C9EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD16A289-7309-332A-4699-67AF4F4C9EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD16A289-7309-332A-4699-67AF4F4C9EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD16A289-7309-332A-4699-67AF4F4C9EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
