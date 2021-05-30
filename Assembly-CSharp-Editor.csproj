@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{237A19EE-8864-D987-05BE-C7E4A6372232}</ProjectGuid>
+    <ProjectGuid>{715EF1AD-0F41-C681-D1C8-7666CB60C0D7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -265,13 +265,13 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="PandaBehaviour">
-      <HintPath>C:/Users/andre/Documents/Unity Projects/IA_RobotBT/Assets/PandaBehaviour/Core/PandaBehaviour.dll</HintPath>
+      <HintPath>C:/Users/andre/Documents/Unity Projects/IA_Robot_MulipleActions/Assets/PandaBehaviour/Core/PandaBehaviour.dll</HintPath>
     </Reference>
     <Reference Include="PandaBehaviourEditor">
-      <HintPath>C:/Users/andre/Documents/Unity Projects/IA_RobotBT/Assets/PandaBehaviour/Core/Editor/PandaBehaviourEditor.dll</HintPath>
+      <HintPath>C:/Users/andre/Documents/Unity Projects/IA_Robot_MulipleActions/Assets/PandaBehaviour/Core/Editor/PandaBehaviourEditor.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:/Users/andre/Documents/Unity Projects/IA_RobotBT/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>C:/Users/andre/Documents/Unity Projects/IA_Robot_MulipleActions/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.20f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -628,42 +628,42 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>C:/Users/andre/Documents/Unity Projects/IA_RobotBT/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/andre/Documents/Unity Projects/IA_Robot_MulipleActions/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:/Users/andre/Documents/Unity Projects/IA_RobotBT/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/andre/Documents/Unity Projects/IA_Robot_MulipleActions/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/andre/Documents/Unity Projects/IA_RobotBT/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/andre/Documents/Unity Projects/IA_Robot_MulipleActions/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/andre/Documents/Unity Projects/IA_RobotBT/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/andre/Documents/Unity Projects/IA_Robot_MulipleActions/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/andre/Documents/Unity Projects/IA_RobotBT/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/andre/Documents/Unity Projects/IA_Robot_MulipleActions/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/andre/Documents/Unity Projects/IA_RobotBT/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/andre/Documents/Unity Projects/IA_Robot_MulipleActions/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/andre/Documents/Unity Projects/IA_RobotBT/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/andre/Documents/Unity Projects/IA_Robot_MulipleActions/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/andre/Documents/Unity Projects/IA_RobotBT/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/andre/Documents/Unity Projects/IA_Robot_MulipleActions/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/andre/Documents/Unity Projects/IA_RobotBT/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/andre/Documents/Unity Projects/IA_Robot_MulipleActions/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/andre/Documents/Unity Projects/IA_RobotBT/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/andre/Documents/Unity Projects/IA_Robot_MulipleActions/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/andre/Documents/Unity Projects/IA_RobotBT/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/andre/Documents/Unity Projects/IA_Robot_MulipleActions/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{10E251FC-99BA-CC20-C471-14DB72B529B4}</Project>
+      <Project>{17688BBD-D518-3710-E396-41EE7D3BC3C1}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>

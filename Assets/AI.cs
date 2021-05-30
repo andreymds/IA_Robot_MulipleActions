@@ -88,7 +88,7 @@ public class AI : MonoBehaviour
     {
         GameObject bullet = GameObject.Instantiate(bulletPrefab,//instancia a bala 
             bulletSpawn.transform.position, bulletSpawn.transform.rotation);
-        bullet.GetComponent<Rigidbody>().AddForce(bullet.transform.forward * 2000);//define a física da bala
+        bullet.GetComponent<Rigidbody>().AddForce(bullet.transform.forward * 2500);//define a física da bala
         return true;
     }
     [Task]
@@ -132,5 +132,17 @@ public class AI : MonoBehaviour
         var p = this.transform.position + Quaternion.AngleAxis(angle, Vector3.up) * this.transform.forward; 
         target = p;
         return true;
+    }
+    [Task] 
+    public bool IsHealthLessThan(float health) //verificação da vida
+    { 
+        return this.health < health; 
+    }
+    [Task] 
+    public bool Explode() //robô desaparece da cena quando morre
+    { 
+        Destroy(healthBar.gameObject); //exclui a barra de vida da cena
+        Destroy(this.gameObject); //exclui prefab do robô quando morre
+        return true; 
     }
 }

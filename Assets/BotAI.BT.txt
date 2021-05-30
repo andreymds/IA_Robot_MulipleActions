@@ -1,0 +1,28 @@
+tree("Root")
+	parallel //ocorrem de simultaneamente
+		repeat mute tree("Patrol")
+		repeat mute tree("Dead")
+
+tree("Patrol")
+	fallback //pode ser interrompido e iniciar outra ação
+		tree("Attack")
+		while IsHealthLessThan(40.0)
+			fallback
+				tree("Wander")
+
+tree("Attack")
+	while SeePlayer
+		sequence
+			TargetPlayer
+			LookAtTarget
+			Fire
+
+tree("Dead")
+	sequence
+		IsHealthLessThan(0.1)
+		Explode
+
+tree("Wander")
+	sequence
+		PickRandomDestination
+		MoveToDestination
